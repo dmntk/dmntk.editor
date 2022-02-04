@@ -1,2 +1,3 @@
-# dmntk.editor
-DMNTK | Web editor
+**DMNTK** | Decision Model and Notation Toolkit
+
+# Web-based editor
