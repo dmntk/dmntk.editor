@@ -1,0 +1,35 @@
+{
+  "name": "dmntk-editor",
+  "version": "0.0.1",
+  "description": "DMNTK editor",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [
+    "dmntk",
+    "dmn",
+    "editor"
+  ],
+  "author": "Dariusz Depta",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.6.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "dmn-js": "^11.1.2"
+  }
+}
