@@ -1,11 +1,12 @@
 'use strict';
 
+import './styles/style.css';
+
 import DmnJS from 'dmn-js';
 
 const viewer = new DmnJS({
   container: '#container'
 });
-
 
 try {
   const xml = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
